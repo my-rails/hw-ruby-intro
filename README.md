@@ -1,10 +1,11 @@
 Ruby Intro
 =============
-yeet
+
 This 3-part homework gives some basic practice in Ruby as well as
 getting you accustomed to making testing a regular part of your workflow.
 
 **NOTE: If you are working on a local computer, do not clone this repo to your workspace. Fork it first, then clone your fork.**
+**Yes**
 
 
 Learning Goals

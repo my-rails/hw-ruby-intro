@@ -62,6 +62,16 @@ end
 
 def binary_multiple_of_4? s
   # YOUR CODE HERE
+  return false if s.empty?
+  
+  # Replace with regexp
+  return true if s == '0'
+
+  return false if s.match?(/[^10]/i)
+
+  return true if s.match?(/00$/i)
+  
+  false
 end
 
 # Part 3

@@ -67,10 +67,11 @@ def binary_multiple_of_4? s
   # Replace with regexp
   return true if s == '0'
 
-  return false if s.match?(/[^10]/i)
+  # return false if s.match?(/[^10]/i)
+  # return true if s.match?(/00$/i)
+  # Or better with the positive lookbehind
+  return true if s.match?(/^[01]*(?<=[01])[00]+$/i)
 
-  return true if s.match?(/00$/i)
-  
   false
 end
 
